@@ -1,3 +1,6 @@
+## Live Demo
+✅ https://nishant2006x.github.io/simple-fitness-plan-generator/
+
 # Simple Fitness Plan Generator ✅
 A lightweight web app that generates a personalized fitness plan based on user inputs — including a primary workout routine, optional secondary training focus, and (optionally) a diet plan with estimated calories + macros. The output is fully editable and can be saved as a PDF.
 
