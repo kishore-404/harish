@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Simple Fitness Plan Generator</title>
+
+  <link rel="stylesheet" href="view_result.css" />
+</head>
+
+<body>
+  <div class="page">
+    <h1 contenteditable="true" class="editable">Your Personalized Fitness Plan</h1>
+    <section id="savePDF"> 
+      <div class="btns">
+        <button type="button" onclick="window.print()">Save as PDF</button>
+      </div>
+    </section>
+    
+    <section id="primarySection">
+    <h2 id="primaryTitle" contenteditable="true" class="editable">Primary Focus</h2>
+    <div class="small editable" contenteditable="true">Edit literally any cell freely. Available: ~7 exercise slots per day (adjust as you like). NOTE: You can also change/delete this sentence or any other sentence/title!</div>
+    <table class="training">
+      <thead>
+        <tr>
+          <th class="editable" contenteditable="true">Exercise #</th>
+          <th class="editable" contenteditable="true">Day 1: </th>
+          <th class="editable" contenteditable="true">Day 2: </th>
+          <th class="editable" contenteditable="true">Day 3: </th>
+          <th class="editable" contenteditable="true">Day 4: </th>
+          <th class="editable" contenteditable="true">Day 5: </th>
+          <th class="editable" contenteditable="true">Day 6: </th>
+          <th class="editable" contenteditable="true">Day 7: </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="editable" contenteditable="true">1</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">2</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">3</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">4</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">5</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">6</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">7</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+    
+    <section id="secondarySection">
+    <h2 id="secondaryTitle" contenteditable="true" class="editable">Secondary Focus</h2>
+    <div class="small editable" contenteditable="true">Edit literally any cell freely. Put your post primary workout cardio/mobility/Conditioning session here. Add duration, intensity, or notes.</div>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:120px;" class="editable" contenteditable="true">Exercise #</th>
+          <th class="editable" contenteditable="true">Activity</th>
+          <th style="width:220px;" class="editable" contenteditable="true">Duration / Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="editable" contenteditable="true">1</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">2</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">3</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">4</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">5</td>
+          <td class="editable" contenteditable="true"></td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+
+    <section id="dietSection">
+    <h2 id="dietTitle" contenteditable="true" class="editable">Diet Plan</h2>
+    <div class="small editable" contenteditable="true">
+    Edit literally any cell freely. Adjust meals, add or remove foods, include calories or macros per meal. Estimated Daily Calories: <strong><span id="outCalories">0</span></strong> (Calculated based on information you entered).</div>
+    <p>Daily Macros: Protein: <strong><span id="outProtein">0</span></strong>, Carbs: <strong><span id="outCarbs">0</span></strong>, Fat: <strong><span id="outFat">0</span></strong></p>
+    <table>
+      <thead>
+        <tr>
+          <th style="width:140px;" class="editable" contenteditable="true">Meal #</th>
+          <th class="editable" contenteditable="true">Possible Foods</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="editable" contenteditable="true">1</td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">2</td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">3</td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+        <tr>
+          <td class="editable" contenteditable="true">4</td>
+          <td class="editable" contenteditable="true"></td>
+        </tr>
+      </tbody>
+    </table>
+    </section>
+
+  <section id="recoveryWrap">
+  <h2 id="recoveryTitle" class="editable" contenteditable="true">Recovery Basics</h2>
+  <ul id="recoverySection" class="editable" contenteditable="true">
+    <li>Sleep: Aim for 7–9 hours per night. Don’t stress if it’s not perfect every day.</li>
+    <li>Hydration: Drink water consistently throughout the day.</li>
+    <li>Rest: Take rest days seriously; reduce volume if fatigue builds up.</li>
+    <li>De-load/rest if joints ache or performance drops or any other personal reason, rest days are when you grow!</li>
+    <li>Light cardio/steps or your secondary focus on rest days as needed to stay active.</li>
+    <li>Optional pre/post-workout nutrition, caffeine, supplements (creatine, omega-3s, multivitamin) can be useful.</li>
+    <li>For diet consider also: Dessert/flexible calories, eating out / social meals, protein shake, fruit, extra carbs.</li>
+  </ul>
+  </section>
+  </div>
+
+    <script src="builders/dietBuilder.js"></script>
+    <script src="builders/primaryBuilder.js"></script>
+    <script src="builders/secondaryBuilder.js"></script>
+    <script src="view_result.js"></script> 
+
+</body>
+</html>

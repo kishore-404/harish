@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Fitness Plan Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="src/index.css"/>
+</head>
+<body>
+  <h1>Simple Fitness Plan Generator ✅</h1>
+  <form id="myForm">
+    <p>Enter your age:</p>
+    <input
+      type="number"
+      id="userInputAge"
+      min="18"
+      step="1"
+      placeholder="age"
+      required
+    />
+    <p>Select your gender:</p>
+    <select id="userInputGender" required>
+      <option value="Prefer not to say" selected>Prefer not to say</option>
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="Other">Other</option>
+    </select>
+    <p>Enter your height in feet and inches:</p>
+    <input type="number" id="userInputFeet" min="0" placeholder="feet" required>
+    <input type="number" id="userInputInches" min="0" placeholder="inches" required>
+
+    <p>Enter your current weight (lbs):</p>
+    <input type="number" id="userInputCurrentWeight" placeholder="weight (lbs)" required>
+    <p>Are you trying to:</p>
+    <select id="goalWeight" required>
+      <option value="Maintain" selected>Maintain weight</option>
+      <option value="Gain">Gain weight</option>
+      <option value="Lose">Lose weight</option>
+    </select>
+
+    <p>Select your primary resistance training focus:</p>
+    <select id="liftingGoal" required>
+      <option value="noLifting" selected>No primary resistance training focus</option>
+      <option value="leanFocus">Lean Muscle & Definition: Increasing muscle while staying lean and defined.</option>
+      <option value="bodybuilding">Bodybuilding: Building as much muscle mass as possible.</option>
+      <option value="gluteFocus">Glute & Lower Body: Emphasis on glutes, hips, and legs.</option>
+      <option value="powerlifting">Powerlifting: Maximizing Squat, Bench Press, and Deadlift 1RM.</option>
+      <option value="calisthenics">Calisthenics: Strength and control using bodyweight movements.</option>
+      <option value="customPrimary">Custom (Enter your own primary focus routine).</option>
+    </select>
+
+    
+   <p>Number of days per week you want to train:</p>
+    <select id="split" required>
+      <option value="FullBody2x">2 days / week</option>
+      <option value="FullBody3x">3 days / week</option>
+      <option value="UL"selected>4 days / week</option>
+      <option value="PPLUP">5 days / week</option>
+      <option value="PPL">6 days / week</option>
+    </select>
+
+    <p>Select your secondary training focus:</p>
+    <select id="cardioGoal" required>
+      <option value="noCardio" selected>No secondary training focus</option>
+      <option value="cardioMobility">Cardio + Mobility: Light cardio combined with flexibility work.</option>
+      <option value="mobility">Mobility & Flexibility: Yoga, stretching, and joint health.</option>
+      <option value="endurance">Cardiovascular Endurance: Long-duration, steady-state cardio for stamina.</option>
+      <option value="sprintTraining">Sprint Training: Short-distance sprints to improve speed and power.</option>
+      <option value="circuitTraining">Circuit Training: Full-body conditioning with minimal rest.</option>
+      <option value="customSecondary">Custom (Enter your own secondary focus routine).</option>
+    </select>
+
+    <p>Select your diet plan/preference:</p>
+    <select id="dietType" required>
+      <option value="noDiet" selected>No diet plan/preference</option>
+      <option value="default">Traditional American Diet</option>
+      <option value="lean">Lean Muscle Diet</option>
+      <option value="keto">Keto Diet</option>
+      <option value="vegan">Vegan Diet</option>
+      <option value="mediterranean">Mediterranean Diet</option>
+      <option value="customDiet">Custom (Enter your own diet plan)</option>
+    </select>
+
+    <p>Add basic recovery advice in your plan (sleep, hydration, mobility):</p>
+    <select id="includeRecovery" required>
+      <option value="yes" selected>Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <button type="submit" id="submitBtn">Submit</button>
+
+  </form>
+    <p id="output"></p>
+    <script src="src/index.js"></script>
+
+
+  <footer class="disclaimer-footer">
+  <p class="disclaimer">
+    This tool provides general fitness and nutrition information only and is not medical advice.
+    Consult a qualified healthcare professional before starting any training or diet program.
+  </p>
+
+  <hr/>
+
+  <p class="footer-credit">
+    Program created by <strong>@nishant2006x</strong> ·
+    <a href="https://github.com/nishant2006x" target="_blank" rel="noopener noreferrer">GitHub</a>
+    |
+    <a href="https://www.youtube.com/@nishant2006x" target="_blank" rel="noopener noreferrer">YouTube</a>
+  </p>
+
+</footer>
+
+
+</body>
+</html>

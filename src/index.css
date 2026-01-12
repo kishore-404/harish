@@ -1,0 +1,16 @@
+/* Footer disclaimer styling */
+.disclaimer-footer {
+margin-top: 40px;
+padding: 20px;
+font-size: 14px;
+background-color: #f8f8f8;
+border-top: 1px solid #ddd;
+}
+/* Submit button styling */
+#submitBtn {
+display: block;
+height: 35px;
+width: 20%;
+margin-top: 20px;
+margin-bottom: -10px;
+}
