@@ -17,12 +17,7 @@ Example plans are included in the `samples/` folder.
 
 ### 1) Calisthenics (Weight Loss)
 - Input:
-
-<p align="center">
-  <a href="samples/01_input_weight_loss_calisthenics.png">
-    <img src="samples/01_input_weight_loss_calisthenics.png" width="350">
-  </a>
-</p>
+  <img src="samples/01_input_weight_loss_calisthenics.png" width="350">
 
 - Output PDF: [02_output_weight_loss_calisthenics.pdf](samples/02_output_weight_loss_calisthenics.pdf)
 
