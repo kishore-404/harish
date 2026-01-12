@@ -1,5 +1,5 @@
 # Simple Fitness Plan Generator ✅
-A lightweight web app that generates a personalized fitness plan based on user inputs — including a primary workout routine, optional secondary training focus, and (optionally) a diet plan with estimated calories + macros. The output is fully editable and can be saved as a PDF.
+A lightweight web app that generates a personalized fitness plan based on user inputs — including a primary workout routine, optional secondary training focus, and (optionally) a diet plan with estimated calories + macros. The output is fully editable & can be saved as a PDF.
 
 ## Features
 - Generates goal-based resistance training programs (Bodybuilding, Powerlifting, Calisthenics, Glute Focus, Lean Muscle & Definition, etc.)
