@@ -110,6 +110,3 @@ Each builder file is responsible for generating a specific section of the plan.
 
 Builders should define functions only (no auto-running code).
 They are loaded by `view_result.html` and called from `view_result.js`.
-
-*Note: Some README wording was refined with the help of AI tools.*
-
