@@ -1,4 +1,4 @@
-# Simple Fitness Plan Generator ✅
+# Simple Fitness Plan Generator
 A lightweight web app that generates a personalized fitness plan based on user inputs — including a primary workout routine, optional secondary training focus, and (optionally) a diet plan with estimated calories + macros. The output is fully editable & can be saved as a PDF.
 
 ## Features
@@ -32,7 +32,7 @@ Example plans are included in the `samples/` folder.
 - [Maintain Weight + Glute Focus](samples/06_output_maintain_weight_glute_lower_body.pdf)
 - [Bodybuilding + Vegan Weight Gain](samples/08_output_weight_gain_bodybuilding_vegan_privacy.pdf)
 
-## 📁 Project Structure
+## Project Structure
 
 This project assumes the following folder structure.  
 **Do not move files unless you also update the corresponding paths in the code.**
@@ -55,7 +55,7 @@ SIMPLE-FITNESS-PLAN-GENERATOR/
 
 ---
 
-## 📄 File Overview
+## File Overview
 
 ### `index.html`
 
@@ -95,7 +95,7 @@ Styles for the results page (`view_result.html`).
 
 ---
 
-## 🧱 Builder Modules (`src/builders/`)
+## Builder Modules (`src/builders/`)
 
 Each builder file is responsible for generating a specific section of the plan.
 
